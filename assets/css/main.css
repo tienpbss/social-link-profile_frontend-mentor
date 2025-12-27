@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 32px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.name {
+    margin: 32px auto 0px;
+}
+
+.address {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.description {
+    margin-top: 0px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.contact {
+    list-style: none;
+}
+
+.social {
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.social:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);;
+}
+
+.social + .social {
+    margin-top: 15px;
+}
+
+
+.attribution {
+    background-color: hsl(0, 0%, 8%);;
+    color: hsl(0, 0%, 100%);
+}
