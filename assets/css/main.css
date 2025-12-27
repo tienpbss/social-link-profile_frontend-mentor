@@ -14,7 +14,7 @@ body {
 .card {
     background-color: hsl(0, 0%, 12%);
     color: hsl(0, 0%, 100%);
-    width: 350px;
+    width: 320px;
     padding: 32px;
     margin: auto;
     display: flex;
@@ -25,7 +25,7 @@ body {
 
 .avatar {
     border-radius: 50%;
-    width: 150px;
+    width: 120px;
 }
 
 .name {
